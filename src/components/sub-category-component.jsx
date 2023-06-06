@@ -5,7 +5,20 @@ import { UPDATE_SELECTED_SUB_CATEGORY } from '../action-constants/category-actio
 export default function SubCategoryComponent() {
 
     const subCategoryData = useSelector(data => data.subCategoryReducer);
+    const selectedMainCategory = useSelector(data => data.mainCategoryReducer.selectedCategory);
     const subCategoryDispatcher = useDispatch();
+
+
+    function filterSubcategory(mainCategory) {
+        return subCategoryData.allCategories.filter((category) => {
+            if (category.mainCategoryName === mainCategory) {
+                return category
+            }
+        })
+    }
+
+    const filteredSubCategories = filterSubcategory(selectedMainCategory);
+
 
     function changeSelectedCategory(categoryName) {
         subCategoryDispatcher(
@@ -27,9 +40,9 @@ export default function SubCategoryComponent() {
         <>
             <div className="list-group">
 
-                {subCategoryData.allCategories.map((category) => {
+                {filteredSubCategories.map((category) => {
                     return (
-                        <button href="#" className={`list-group-item list-group-item-action ${isCurrentCategoryIsActive(category.name)}`} key={category.name} onClick={() => changeSelectedCategory(category.name)}>
+                        <button href="#" className={`list-group-item list-group-item-action`} key={category.name} onClick={() => changeSelectedCategory(category.name)}>
                             {category.name}
                         </button>
                     )
