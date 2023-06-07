@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 export default function FurnitureCard({ productData }) {
     // console.log(productData);
@@ -9,7 +10,7 @@ export default function FurnitureCard({ productData }) {
                 <div className="card-body">
                     <h5 className="card-title">{productData.name}</h5>
                     <p className="card-text">{productData.description}</p>
-                    <a href="#" className="btn btn-primary">See More</a>
+                    <NavLink to={`/furniture/${productData.id}`} className="btn btn-primary">See More</NavLink>
                 </div>
             </div>
         </>

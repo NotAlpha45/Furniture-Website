@@ -6,7 +6,7 @@ export default function Navbar() {
         <div>
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div className="container-fluid">
-                    <NavLink className="navbar-brand" href=""> <i className="bi bi-shop"></i> Hatir Furniture</NavLink>
+                    <NavLink className="navbar-brand" to=""> <i className="bi bi-shop"></i> Hatir Furniture</NavLink>
 
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-5 mb-lg-5">
