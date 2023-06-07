@@ -21,7 +21,7 @@ export default function FurnitureContainer() {
         <>
             {products.map((product) => {
                 return (
-                    <div key={`product-${product.name}`}>
+                    <div key={`product-${product.name}`} style={{display: 'inline-flex', marginInline:"1rem"}}>
                         <FurnitureCard productData={product} />
                     </div>
                 )
