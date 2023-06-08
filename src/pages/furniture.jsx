@@ -23,7 +23,90 @@ export default function Furniture() {
 
     return (
         <>
-            <div className="container">
+            <div className='desktop2'>
+                <div className='frame16'>
+
+                    <div className='frame26'>
+
+                        <div className='frame14'>
+                            <p className='buy-button-text'>Buy Now</p>
+                        </div>
+
+                        <div className='frame13'>
+                            <p className='cart-button-text'>Add to Cart</p>
+                        </div>
+
+                        {product.images.map((image) => {
+                            return (
+                                <div className='optional-image-container' key={`optional-${image}`}>
+                                    <img className="optional-image" src={image} />
+                                </div>
+
+                            )
+                        })}
+
+
+                    </div>
+
+                    <div className='frame17'>
+                        <p className='price-warning'>
+                            Price may change due to color and fabric change
+                        </p>
+                        <div className='frame31'>
+                            <div className='frame18'>
+                                <div className='frame34'>
+                                    <a className='quantity-increment'>+</a>
+                                </div>
+                                <div className='frame33'>
+                                    <a className='quantity-decrement'>-</a>
+                                </div>
+                                <div className='quantity'>1</div>
+                            </div>
+                            <div className='quantity-text'>Quantity</div>
+                            <div className='price-amount'>6969 BDT</div>
+
+                            <div className='frame19'>
+                                <select className='expand-down' value="val1">
+                                    <option className='selection' selected="selected" value="val1">Non Lacqure Finish</option>
+                                    <option className='selection' value="val2">Lacqure Finish</option>
+                                </select>
+                                <p className='default-selection'>Non Lacqure Finish</p>
+                            </div>
+                            <div className='material-selection-label'>Material and Wood Finish</div>
+
+                            <div className='frame15'>
+                                <select className='expand-down2' value="val1">
+                                    <option className='selection2' selected="selected" value="val1">Body : Artificial Leather</option>
+                                    <option className='selection2' value="val2">Body : Genuine Leather</option>
+                                </select>
+                                <p className='default-selection2'>Body : Artificial Leather</p>
+                            </div>
+                            <div className='material-selection-label2'>Parts of color and fabric</div>
+
+                            <div className='furniture-description'>
+                                {product.description}
+                            </div>
+                            <div className='furniture-description-label'>
+                                About Product
+                            </div>
+
+                            <div className='furniture-title'>
+                                {product.name}
+                            </div>
+
+
+                        </div>
+
+                        <img className='main-furniture-image' src={`${product.images[0]}`} />
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            {/* <div className="container">
                 <div className="col-lg-8 border p-3 main-section bg-white">
                     <div className="row hedding m-0 pl-3 pt-0 pb-3">
                         Your Furniture
@@ -100,7 +183,7 @@ export default function Furniture() {
                     </div>
 
                 </div>
-            </div>
+            </div> */}
 
         </>
     )
