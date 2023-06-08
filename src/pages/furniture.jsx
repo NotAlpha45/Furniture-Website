@@ -63,7 +63,7 @@ export default function Furniture() {
                                 <div className='quantity'>1</div>
                             </div>
                             <div className='quantity-text'>Quantity</div>
-                            <div className='price-amount'>6969 BDT</div>
+                            <div className='price-amount'>{product.price} BDT</div>
 
                             <div className='frame19'>
                                 <select className='expand-down' value="val1">
