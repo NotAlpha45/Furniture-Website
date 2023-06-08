@@ -1,0 +1,504 @@
+.desktop2 {
+  box-sizing: border-box;
+
+  position: relative;
+  width: 1440px;
+  height: 1015px;
+
+  background: #ffffff;
+}
+
+.frame16 {
+  position: absolute;
+  height: 889px;
+  left: 0px;
+  right: 0px;
+  top: calc(50% - 889px / 2 + 63px);
+}
+
+.frame26 {
+  position: absolute;
+  width: 1200px;
+  height: 213px;
+  left: 120px;
+  top: 607px;
+}
+
+.frame14 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 399px;
+  height: 48px;
+  left: calc(50% - 399px / 2 + 303.5px);
+  top: calc(50% - 48px / 2 - 51.5px);
+
+  border: 1px solid #ed1c24;
+}
+
+.buy-button-text {
+  position: absolute;
+  width: 86px;
+  height: 24px;
+  left: calc(50% - 86px / 2 - 12.5px);
+  top: calc(50% - 24px / 2);
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #222222;
+}
+
+.frame13 {
+  position: absolute;
+  width: 399px;
+  height: 48px;
+  left: calc(50% - 399px / 2 + 303.5px);
+  top: calc(50% - 48px / 2 + 11.5px);
+
+  background: #ed1c24;
+}
+
+.cart-button-text {
+  position: absolute;
+  width: 112px;
+  height: 24px;
+  left: calc(50% - 112px / 2 + 0.5px);
+  top: calc(50% - 24px / 2);
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #f5f5f5;
+}
+
+.frame17 {
+  position: absolute;
+  width: 1200px;
+  height: 520px;
+  left: 120px;
+  top: 87px;
+}
+
+.price-warning {
+  position: absolute;
+  width: 333px;
+  height: 15px;
+  left: 600px;
+  top: 499px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  letter-spacing: 0.1em;
+
+  color: #000000;
+}
+
+.frame31 {
+  position: absolute;
+  width: 600px;
+  height: 520px;
+  left: 600px;
+  top: 0px;
+}
+
+.frame18 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 216px;
+  height: 33px;
+  left: 0px;
+  top: 383px;
+
+  border: 1px solid #ed1c24;
+}
+
+.frame34 {
+  position: absolute;
+  width: 42px;
+  height: 33px;
+  left: 174px;
+  top: 0px;
+
+  background: #ed1c24;
+}
+
+.quantity-increment {
+  position: absolute;
+  width: 16px;
+  height: 29px;
+  left: calc(50% - 16px / 2);
+  top: calc(50% - 29px / 2);
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+
+  letter-spacing: 0.1em;
+
+  color: #ffffff;
+
+  text-decoration: none;
+}
+
+.frame33 {
+  position: absolute;
+  width: 42px;
+  height: 33px;
+  left: 0px;
+  top: 0px;
+
+  background: #ed1c24;
+}
+
+.quantity-decrement {
+  position: absolute;
+  width: 12px;
+  height: 29px;
+  left: calc(50% - 12px / 2);
+  top: calc(50% - 29px / 2);
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+
+  letter-spacing: 0.1em;
+
+  color: #ffffff;
+
+  text-decoration: none;
+}
+
+.quantity {
+  position: absolute;
+  width: 8px;
+  height: 19px;
+  left: calc(50% - 8px / 2);
+  top: calc(50% - 19px / 2);
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.1em;
+
+  color: #000000;
+}
+
+.quantity-text {
+  position: absolute;
+  width: 76px;
+  height: 19px;
+  left: 0px;
+  top: 364px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.1em;
+
+  color: #000000;
+}
+
+.price-amount {
+  position: absolute;
+  width: 212px;
+  height: 39px;
+  left: 0px;
+  top: 460px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  /* identical to box height */
+
+  letter-spacing: 0.1em;
+
+  color: #000000;
+}
+
+.frame19 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 600px;
+  height: 33px;
+  left: 0px;
+  top: 287px;
+
+  border: 1px solid #ed1c24;
+}
+
+.expand-down {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 558px;
+  top: 5px;
+}
+
+.selection {
+  box-sizing: border-box;
+
+  position: absolute;
+  left: 75%;
+  right: 0%;
+  top: 62.5%;
+  bottom: -12.5%;
+}
+.default-selection {
+  position: absolute;
+  width: 177px;
+  height: 19px;
+  left: calc(50% - 177px / 2 - 137.5px);
+  top: calc(50% - 19px / 2);
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.1em;
+
+  color: #000000;
+}
+
+.material-selection-label {
+  position: absolute;
+  width: 228px;
+  height: 19px;
+  left: 0px;
+  top: 268px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.1em;
+
+  color: #000000;
+}
+
+.frame15 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 600px;
+  height: 33px;
+  left: 0px;
+  top: 191px;
+  background-color: #ffffff;
+  border: 1px solid #ed1c24;
+}
+
+.expand-down2 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: calc(50% - 24px / 2 + 273px);
+  top: calc(50% - 24px / 2 + 0.5px);
+}
+
+.selection2 {
+  box-sizing: border-box;
+
+  position: absolute;
+  left: 75%;
+  right: 0%;
+  top: 62.5%;
+  bottom: -12.5%;
+}
+
+.default-selection2 {
+  position: absolute;
+  width: 462px;
+  height: 19px;
+  left: calc(50% - 462px / 2 + 5px);
+  top: calc(50% - 19px / 2);
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.1em;
+
+  color: #000000;
+}
+
+.material-selection-label2 {
+  position: absolute;
+  width: 228px;
+  height: 19px;
+  left: 0px;
+  top: 172px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.1em;
+
+  color: #000000;
+}
+
+.furniture-description {
+  position: absolute;
+  width: 500px;
+  height: 24px;
+  left: 0px;
+  top: 104px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.1em;
+
+  color: #000000;
+}
+
+.furniture-description-label {
+  position: absolute;
+  width: 300px;
+  height: 19px;
+  left: 0px;
+  top: 85px;
+  bottom:10px;
+
+  text-decoration: underline;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 19px;
+  letter-spacing: 0.1em;
+
+  color: #000000;
+}
+
+.furniture-title {
+  position: absolute;
+  width: 346px;
+  height: 29px;
+  left: 0px;
+  top: 12px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 29px;
+  /* identical to box height */
+
+  letter-spacing: 0.1em;
+
+  color: #000000;
+}
+
+.main-furniture-image {
+  position: absolute;
+  width: 520px;
+  height: 520px;
+  left: 0px;
+  top: 0px;
+}
+
+.optional-image {
+  box-sizing: border-box;
+
+  /* position: absolute; */
+  width: 160px;
+  height: 144px;
+  top: 22px;
+
+  margin-right: 5px;
+
+  background: url(image.png);
+  border: 0.5px solid #222222;
+}
+
+.optional-image-container {
+  display: inline;
+  margin-inline: 5px;
+  margin-top: 1rem;
+  
+}
+
+/* .hedding {
+  font-size: 20px;
+  color: #ab8181;
+}
+
+.main-section {
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, 5%);
+}
+
+.left-side-product-box img {
+  width: 100%;
+}
+
+.left-side-product-box .sub-img img {
+  margin-top: 5px;
+  width: 83px;
+  height: 100px;
+}
+
+.right-side-pro-detail span {
+  font-size: 15px;
+}
+
+.right-side-pro-detail p {
+  font-size: 25px;
+  color: #a1a1a1;
+}
+
+.right-side-pro-detail .price-pro {
+  color: #e45641;
+}
+
+.right-side-pro-detail .tag-section {
+  font-size: 18px;
+  color: #5d4c46;
+}
+
+.pro-box-section .pro-box img {
+  width: 100%;
+  height: 200px;
+}
+
+@media (min-width: 360px) and (max-width: 640px) {
+  .pro-box-section .pro-box img {
+    height: auto;
+  }
+} */

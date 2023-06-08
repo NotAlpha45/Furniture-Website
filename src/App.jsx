@@ -7,6 +7,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 import Navbar from './components/navbar'
 import Home from './pages/home'
+import Furniture from './pages/furniture'
 
 
 function App() {
@@ -14,11 +15,11 @@ function App() {
   return (
     <>
       <BrowserRouter>
-      
         <Navbar />
         <Routes>
-          <Route exact path="/" >
-            <Route path='' element={<Home />} />
+          <Route exact path="" >
+            <Route path='/' element={<Home />} />
+            <Route path='/furniture/:id' element={<Furniture />} />
           </Route>
         </Routes>
       </BrowserRouter>
